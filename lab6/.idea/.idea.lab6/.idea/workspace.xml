@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3010af6-85b0-4885-9174-1f077c66034e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab6/Program.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="103" column="52" lean-forward="true" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+              <folding>
+                <marker date="1557753851955" expanded="true" signature="0:3004" ph="// Нумералы Черча ..." />
+                <marker date="1557753851955" expanded="true" signature="19:160" ph="// В этой лабе нельзя будет пользоваться рекурсивными функциями и ветвлениями ..." />
+                <marker date="1557753851955" expanded="true" signature="263:371" ph="// 1. В качестве разгорева реализуйте факториал на int'ах (0.5 баллов) ..." />
+                <marker date="1557753851955" expanded="true" signature="380:473" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="389:473" ph=" ( fun func -&gt; ..." />
+                <marker date="1557753851955" expanded="true" signature="425:472" ph="  ..." />
+                <marker date="1557753851955" expanded="true" signature="669:820" ph="// 2. Нумералы Черча (0.5 баллов). Здесь можно использовать ветвления и рекурсию ..." />
+                <marker date="1557753851955" expanded="true" signature="843:911" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="862:911" ph=" ..." />
+                <marker date="1557753851955" expanded="true" signature="1216:1234" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="1252:1268" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="1620:1656" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="1823:1852" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="1864:1893" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="1904:1927" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="2479:2491" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="2502:2516" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="2527:2542" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="2677:2693" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="2708:2774" ph=" = ..." />
+                <marker date="1557753851955" expanded="true" signature="3006:3150" ph="// Disclaimer: решение этой задачи в заданных ограничениях (нет рекурсии и ..." />
+                <marker date="1557753851955" expanded="true" signature="3152:3603" ph="// Поэтому задача исследовательская, а критерии такие: ..." />
+                <marker date="1557753851955" expanded="true" signature="3605:3804" ph="// P.S. Очевидно, все написанное выше (кроме самих нумералов) использовать ..." />
+                <marker date="1557753851955" expanded="true" signature="3806:3927" ph="// P.P.S. Кстати, возможно, то решение получится. Особенно если что-то поменять ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/lab-6.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab6/Program.fs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lab6/Program.fs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="28" />
+    <option name="width" value="1135" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="lab6" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="lab6" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="lab6" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/lab6/bin/Debug/lab6.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab6/lab6.fsproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3010af6-85b0-4885-9174-1f077c66034e" name="Default Changelist" comment="" />
+      <created>1557744501358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557744501358</updated>
+      <workItem from="1557744504795" duration="9283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9283000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="28" width="1135" height="1044" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18072289" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32849163" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="NuGet" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$USER_HOME$/Downloads/lab-6.fs</url>
+          <line>6</line>
+          <properties documentPath="$USER_HOME$/Downloads/lab-6.fs" initialLine="6">
+            <startOffsets>
+              <option value="251" />
+            </startOffsets>
+            <endOffsets>
+              <option value="261" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/lab-6.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="99" column="63" lean-forward="true" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="63" />
+          <folding>
+            <marker date="1557744774195" expanded="true" signature="0:4819" ph="// Нумералы Черча ..." />
+            <marker date="1557744774195" expanded="true" signature="19:160" ph="// В этой лабе нельзя будет пользоваться рекурсивными функциями и ветвлениями ..." />
+            <marker date="1557744774195" expanded="true" signature="263:371" ph="// 1. В качестве разгорева реализуйте факториал на int'ах (0.5 баллов) ..." />
+            <marker date="1557744774195" expanded="true" signature="380:444" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="634:785" ph="// 2. Нумералы Черча (0.5 баллов). Здесь можно использовать ветвления и рекурсию ..." />
+            <marker date="1557744774195" expanded="true" signature="862:907" ph="= ..." />
+            <marker date="1557744774195" expanded="true" signature="931:1055" ph=" = ..." />
+            <marker date="1557744774195" expanded="true" signature="950:1055" ph=" ..." />
+            <marker date="1557744774195" expanded="true" signature="1359:1378" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="1396:1413" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="1763:1796" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="1962:1992" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2004:2034" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2045:2069" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2620:2633" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2644:2659" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2670:2686" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2821:2838" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="2853:2920" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="3065:3429" ph="// Чтобы реализовать факториал в f##, пришлось столкнуться с 2 трудностями: ..." />
+            <marker date="1557744774195" expanded="true" signature="3431:3679" ph="// Решение: ..." />
+            <marker date="1557744774195" expanded="true" signature="3809:3876" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="3831:3876" ph=" with ..." />
+            <marker date="1557744774195" expanded="true" signature="3901:3981" ph=" = ..." />
+            <marker date="1557744774195" expanded="true" signature="3922:3981" ph=" with ..." />
+            <marker date="1557744774195" expanded="true" signature="4167:4298" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="4189:4298" ph=" with ..." />
+            <marker date="1557744774195" expanded="true" signature="4495:4530" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="4586:4599" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="4648:4772" ph=" =  ..." />
+            <marker date="1557744774195" expanded="true" signature="4821:4965" ph="// Disclaimer: решение этой задачи в заданных ограничениях (нет рекурсии и ..." />
+            <marker date="1557744774195" expanded="true" signature="4967:5418" ph="// Поэтому задача исследовательская, а критерии такие: ..." />
+            <marker date="1557744774195" expanded="true" signature="5420:5619" ph="// P.S. Очевидно, все написанное выше (кроме самих нумералов) использовать ..." />
+            <marker date="1557744774195" expanded="true" signature="5621:5742" ph="// P.P.S. Кстати, возможно, то решение получится. Особенно если что-то поменять ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab6/Program.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="103" column="52" lean-forward="true" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+          <folding>
+            <marker date="1557753851955" expanded="true" signature="0:3004" ph="// Нумералы Черча ..." />
+            <marker date="1557753851955" expanded="true" signature="19:160" ph="// В этой лабе нельзя будет пользоваться рекурсивными функциями и ветвлениями ..." />
+            <marker date="1557753851955" expanded="true" signature="263:371" ph="// 1. В качестве разгорева реализуйте факториал на int'ах (0.5 баллов) ..." />
+            <marker date="1557753851955" expanded="true" signature="380:473" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="389:473" ph=" ( fun func -&gt; ..." />
+            <marker date="1557753851955" expanded="true" signature="425:472" ph="  ..." />
+            <marker date="1557753851955" expanded="true" signature="669:820" ph="// 2. Нумералы Черча (0.5 баллов). Здесь можно использовать ветвления и рекурсию ..." />
+            <marker date="1557753851955" expanded="true" signature="843:911" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="862:911" ph=" ..." />
+            <marker date="1557753851955" expanded="true" signature="1216:1234" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="1252:1268" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="1620:1656" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="1823:1852" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="1864:1893" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="1904:1927" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="2479:2491" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="2502:2516" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="2527:2542" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="2677:2693" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="2708:2774" ph=" = ..." />
+            <marker date="1557753851955" expanded="true" signature="3006:3150" ph="// Disclaimer: решение этой задачи в заданных ограничениях (нет рекурсии и ..." />
+            <marker date="1557753851955" expanded="true" signature="3152:3603" ph="// Поэтому задача исследовательская, а критерии такие: ..." />
+            <marker date="1557753851955" expanded="true" signature="3605:3804" ph="// P.S. Очевидно, все написанное выше (кроме самих нумералов) использовать ..." />
+            <marker date="1557753851955" expanded="true" signature="3806:3927" ph="// P.P.S. Кстати, возможно, то решение получится. Особенно если что-то поменять ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c038e2a-c2d1-42aa-8213-8afe14e7837c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab2/Program.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-625">
+              <caret line="55" column="26" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+              <folding>
+                <marker date="1553279717422" expanded="true" signature="0:7569" ph="open System ..." />
+                <marker date="1553279717422" expanded="true" signature="13:136" ph="// Задача - написать парсер строки в Json-объект ..." />
+                <marker date="1553279717422" expanded="true" signature="148:291" ph="= ..." />
+                <marker date="1553279717422" expanded="true" signature="154:291" ph="| Null ..." />
+                <marker date="1553279717422" expanded="true" signature="293:673" ph="// Ограничения: ..." />
+                <marker date="1553279717422" expanded="true" signature="675:849" ph="// Также см. тесты ..." />
+                <marker date="1553279717422" expanded="true" signature="941:967" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="1098:1279" ph="= ..." />
+                <marker date="1553279717422" expanded="true" signature="1104:1279" ph="| OpenBrace' ..." />
+                <marker date="1553279717422" expanded="true" signature="1322:5273" ph=" : Token list = ..." />
+                <marker date="1553279717422" expanded="true" signature="1404:1643" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="1430:1643" ph=" ..." />
+                <marker date="1553279717422" expanded="true" signature="1475:1643" ph=" -&gt; ..." />
+                <marker date="1553279717422" expanded="true" signature="1558:1643" ph=" -&gt; ..." />
+                <marker date="1553279717422" expanded="true" signature="1652:1791" ph="// Возможно, вам понадобятся вспомогательные функции, которые принимают список символов ..." />
+                <marker date="1553279717422" expanded="true" signature="1833:1999" ph=" : (Token * char list) = ..." />
+                <marker date="1553279717422" expanded="true" signature="1955:1999" ph=" then (Null', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="2057:2378" ph=" : (Token * char list) = ..." />
+                <marker date="1553279717422" expanded="true" signature="2267:2378" ph=" then (Boolean' true, y1) ..." />
+                <marker date="1553279717422" expanded="true" signature="2315:2378" ph=" then (Boolean' false, y2) ..." />
+                <marker date="1553279717422" expanded="true" signature="2422:2520" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="2453:2520" ph=" ..." />
+                <marker date="1553279717422" expanded="true" signature="2568:3403" ph=" : (Token * char list) = ..." />
+                <marker date="1553279717422" expanded="true" signature="2633:2810" ph=" =     ..." />
+                <marker date="1553279717422" expanded="true" signature="2777:2810" ph=" then true ..." />
+                <marker date="1553279717422" expanded="true" signature="2884:3072" ph=" : (char list * char list)= ..." />
+                <marker date="1553279717422" expanded="true" signature="3014:3072" ph=" then readNumber y (num@[x]) ..." />
+                <marker date="1553279717422" expanded="true" signature="3140:3260" ph="= ..." />
+                <marker date="1553279717422" expanded="true" signature="3170:3260" ph=" ..." />
+                <marker date="1553279717422" expanded="true" signature="3336:3403" ph=" then (Number' 0, [' ']) ..." />
+                <marker date="1553279717422" expanded="true" signature="3448:4215" ph=" : (Token * char list) = ..." />
+                <marker date="1553279717422" expanded="true" signature="3546:3722" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="3577:3722" ph=" ..." />
+                <marker date="1553279717422" expanded="true" signature="3632:3722" ph=" -&gt; ..." />
+                <marker date="1553279717422" expanded="true" signature="3779:3838" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="3909:4013" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="3940:4013" ph=" ..." />
+                <marker date="1553279717422" expanded="true" signature="4159:4215" ph=" then (String' &quot;0&quot;, [' ']) ..." />
+                <marker date="1553279717422" expanded="true" signature="4266:4583" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="4325:4583" ph=" then (OpenBrace', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="4367:4583" ph=" then (CloseBrace', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="4410:4583" ph=" then (Colon', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="4448:4583" ph=" then (OpenBracket', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="4492:4583" ph=" then (CloseBracket', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="4537:4583" ph=" then (Comma', y) ..." />
+                <marker date="1553279717422" expanded="true" signature="4652:5213" ph=" : Token list= ..." />
+                <marker date="1553279717422" expanded="true" signature="4918:5213" ph=" then makeToken n2 (token@[n1]) ..." />
+                <marker date="1553279717422" expanded="true" signature="4974:5213" ph=" then makeToken b2 (token@[b1]) ..." />
+                <marker date="1553279717422" expanded="true" signature="5032:5213" ph=" then makeToken num2 (token@[num1]) ..." />
+                <marker date="1553279717422" expanded="true" signature="5092:5213" ph=" then makeToken s2 (token@[s1]) ..." />
+                <marker date="1553279717422" expanded="true" signature="5153:5213" ph=" then makeToken symbol2 (token@[symbol1]) ..." />
+                <marker date="1553279717422" expanded="true" signature="5359:5727" ph=" : Json = (*raise (NotImplementedException ())*) ..." />
+                <marker date="1553279717422" expanded="true" signature="5458:5657" ph=" = ..." />
+                <marker date="1553279717422" expanded="true" signature="5486:5657" ph=" ..." />
+                <marker date="1553279717422" expanded="true" signature="5864:6232" ph=" = function ..." />
+                <marker date="1553279717422" expanded="true" signature="7060:7301" ph=" = [ ..." />
+                <marker date="1553279717422" expanded="true" signature="7527:7568" ph=" then ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>explo</find>
+      <find>isSub</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lab2/Program.fs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lab2/Program.fs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="963" />
+    <option name="y" value="27" />
+    <option name="width" value="957" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/lab2/bin/Debug/lab2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab2/lab2.fsproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c038e2a-c2d1-42aa-8213-8afe14e7837c" name="Default Changelist" comment="" />
+      <created>1552918125763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552918125763</updated>
+      <workItem from="1552918128680" duration="4923000" />
+      <workItem from="1553196638974" duration="21337000" />
+      <workItem from="1553252341436" duration="10393000" />
+      <workItem from="1553268150891" duration="7930000" />
+      <workItem from="1553277851709" duration="2526000" />
+      <workItem from="1558368349179" duration="2230000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49339000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="963" y="27" width="957" height="1049" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13207547" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08888889" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3620309" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.33443707" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>140</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="140">
+            <startOffsets>
+              <option value="4684" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4713" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>129</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="129">
+            <startOffsets>
+              <option value="4277" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4306" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>133</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="133">
+            <startOffsets>
+              <option value="4436" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4453" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>144</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="144">
+            <startOffsets>
+              <option value="4847" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4895" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>145</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="145">
+            <startOffsets>
+              <option value="4904" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4923" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>136</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="136">
+            <startOffsets>
+              <option value="4568" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4583" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>150</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="150">
+            <startOffsets>
+              <option value="5208" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5213" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>149</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="149">
+            <startOffsets>
+              <option value="5132" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5158" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>134</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="134">
+            <startOffsets>
+              <option value="4480" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4497" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>160</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="160">
+            <startOffsets>
+              <option value="5469" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5486" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lab2/Program.fs</url>
+          <line>168</line>
+          <properties documentPath="$PROJECT_DIR$/lab2/Program.fs" initialLine="167">
+            <startOffsets>
+              <option value="5689" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5718" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab2/Program.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <marker date="1553279717422" expanded="true" signature="0:7569" ph="open System ..." />
+            <marker date="1553279717422" expanded="true" signature="13:136" ph="// Задача - написать парсер строки в Json-объект ..." />
+            <marker date="1553279717422" expanded="true" signature="148:291" ph="= ..." />
+            <marker date="1553279717422" expanded="true" signature="154:291" ph="| Null ..." />
+            <marker date="1553279717422" expanded="true" signature="293:673" ph="// Ограничения: ..." />
+            <marker date="1553279717422" expanded="true" signature="675:849" ph="// Также см. тесты ..." />
+            <marker date="1553279717422" expanded="true" signature="941:967" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="1098:1279" ph="= ..." />
+            <marker date="1553279717422" expanded="true" signature="1104:1279" ph="| OpenBrace' ..." />
+            <marker date="1553279717422" expanded="true" signature="1322:5273" ph=" : Token list = ..." />
+            <marker date="1553279717422" expanded="true" signature="1404:1643" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="1430:1643" ph=" ..." />
+            <marker date="1553279717422" expanded="true" signature="1475:1643" ph=" -&gt; ..." />
+            <marker date="1553279717422" expanded="true" signature="1558:1643" ph=" -&gt; ..." />
+            <marker date="1553279717422" expanded="true" signature="1652:1791" ph="// Возможно, вам понадобятся вспомогательные функции, которые принимают список символов ..." />
+            <marker date="1553279717422" expanded="true" signature="1833:1999" ph=" : (Token * char list) = ..." />
+            <marker date="1553279717422" expanded="true" signature="1955:1999" ph=" then (Null', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="2057:2378" ph=" : (Token * char list) = ..." />
+            <marker date="1553279717422" expanded="true" signature="2267:2378" ph=" then (Boolean' true, y1) ..." />
+            <marker date="1553279717422" expanded="true" signature="2315:2378" ph=" then (Boolean' false, y2) ..." />
+            <marker date="1553279717422" expanded="true" signature="2422:2520" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="2453:2520" ph=" ..." />
+            <marker date="1553279717422" expanded="true" signature="2568:3403" ph=" : (Token * char list) = ..." />
+            <marker date="1553279717422" expanded="true" signature="2633:2810" ph=" =     ..." />
+            <marker date="1553279717422" expanded="true" signature="2777:2810" ph=" then true ..." />
+            <marker date="1553279717422" expanded="true" signature="2884:3072" ph=" : (char list * char list)= ..." />
+            <marker date="1553279717422" expanded="true" signature="3014:3072" ph=" then readNumber y (num@[x]) ..." />
+            <marker date="1553279717422" expanded="true" signature="3140:3260" ph="= ..." />
+            <marker date="1553279717422" expanded="true" signature="3170:3260" ph=" ..." />
+            <marker date="1553279717422" expanded="true" signature="3336:3403" ph=" then (Number' 0, [' ']) ..." />
+            <marker date="1553279717422" expanded="true" signature="3448:4215" ph=" : (Token * char list) = ..." />
+            <marker date="1553279717422" expanded="true" signature="3546:3722" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="3577:3722" ph=" ..." />
+            <marker date="1553279717422" expanded="true" signature="3632:3722" ph=" -&gt; ..." />
+            <marker date="1553279717422" expanded="true" signature="3779:3838" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="3909:4013" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="3940:4013" ph=" ..." />
+            <marker date="1553279717422" expanded="true" signature="4159:4215" ph=" then (String' &quot;0&quot;, [' ']) ..." />
+            <marker date="1553279717422" expanded="true" signature="4266:4583" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="4325:4583" ph=" then (OpenBrace', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="4367:4583" ph=" then (CloseBrace', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="4410:4583" ph=" then (Colon', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="4448:4583" ph=" then (OpenBracket', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="4492:4583" ph=" then (CloseBracket', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="4537:4583" ph=" then (Comma', y) ..." />
+            <marker date="1553279717422" expanded="true" signature="4652:5213" ph=" : Token list= ..." />
+            <marker date="1553279717422" expanded="true" signature="4918:5213" ph=" then makeToken n2 (token@[n1]) ..." />
+            <marker date="1553279717422" expanded="true" signature="4974:5213" ph=" then makeToken b2 (token@[b1]) ..." />
+            <marker date="1553279717422" expanded="true" signature="5032:5213" ph=" then makeToken num2 (token@[num1]) ..." />
+            <marker date="1553279717422" expanded="true" signature="5092:5213" ph=" then makeToken s2 (token@[s1]) ..." />
+            <marker date="1553279717422" expanded="true" signature="5153:5213" ph=" then makeToken symbol2 (token@[symbol1]) ..." />
+            <marker date="1553279717422" expanded="true" signature="5359:5727" ph=" : Json = (*raise (NotImplementedException ())*) ..." />
+            <marker date="1553279717422" expanded="true" signature="5458:5657" ph=" = ..." />
+            <marker date="1553279717422" expanded="true" signature="5486:5657" ph=" ..." />
+            <marker date="1553279717422" expanded="true" signature="5864:6232" ph=" = function ..." />
+            <marker date="1553279717422" expanded="true" signature="7060:7301" ph=" = [ ..." />
+            <marker date="1553279717422" expanded="true" signature="7527:7568" ph=" then ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
